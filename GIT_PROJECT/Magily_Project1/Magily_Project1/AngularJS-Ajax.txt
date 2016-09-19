@@ -1,0 +1,25 @@
+﻿[
+   {
+      "Name" : "Raj Godhasara",
+      "RollNo" : 1,
+      "Percentage" : "80%"
+   },
+	
+   {
+      "Name" : "Aashka Vora",
+      "RollNo" : 2,
+      "Percentage" : "70%"
+   },
+	
+   {
+      "Name" : "Aditi Patel",
+      "RollNo" : 3,
+      "Percentage" : "75%"
+   },
+	
+   {
+      "Name" : "Mitaly",
+      "RollNo" : 4,
+      "Percentage" : "77%"
+   }
+]

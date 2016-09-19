@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A059C27-CCBD-4E67-AFEA-070753A85146}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Magily_Project1</RootNamespace>
+    <AssemblyName>Magily_Project1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AngularJS-Ajax.aspx" />
+    <Content Include="AngularJS-Ajax.txt" />
+    <Content Include="AngularJS-Controller.aspx" />
+    <Content Include="AngularJS-Events.aspx" />
+    <Content Include="AngularJS-Expressions.aspx" />
+    <Content Include="AngularJS-Filters.aspx" />
+    <Content Include="AngularJS-HTML-DOM.aspx" />
+    <Content Include="AngularJS-LoginApp-UsingWeb.aspx" />
+    <Content Include="AngularJS-LoginApplication.aspx" />
+    <Content Include="AngularJS-Module.aspx" />
+    <Content Include="AngularJS-ModuleController.js" />
+    <Content Include="AngularJS-ModuleMain.js" />
+    <Content Include="AngularJS-Services.aspx" />
+    <Content Include="AngularJS-Validation.aspx" />
+    <Content Include="AngularJS-Views-AddStudent.aspx" />
+    <Content Include="AngularJS-Views.aspx" />
+    <Content Include="AngularJS1.aspx" />
+    <Content Include="AngularJS2.aspx" />
+    <Content Include="AngularJS-Directives.aspx" />
+    <Content Include="Angulat-JS-LoginUsingWebService.aspx" />
+    <Content Include="bootstrap.min.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="LoginWebService.asmx" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Scripts\jquery-3.1.0.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\jquery-3.1.0.min.js" />
+    <Content Include="Scripts\jquery-3.1.0.slim.js" />
+    <Content Include="Scripts\jquery-3.1.0.slim.min.js" />
+    <Content Include="Scripts\jquery-3.1.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.0.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Login.aspx" />
+    <Content Include="LoginSuccess.aspx" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.1.0.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\typings\angularjs\angular-animate.d.ts" />
+    <Content Include="Scripts\typings\angularjs\angular-component-router.d.ts" />
+    <Content Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
+    <Content Include="Scripts\typings\angularjs\angular-mocks.d.ts" />
+    <Content Include="Scripts\typings\angularjs\angular-resource.d.ts" />
+    <Content Include="Scripts\typings\angularjs\angular-route.d.ts" />
+    <Content Include="Scripts\typings\angularjs\angular-sanitize.d.ts" />
+    <Content Include="Scripts\typings\angularjs\angular.d.ts" />
+    <Content Include="Scripts\typings\bootstrap\bootstrap.d.ts" />
+    <Content Include="Scripts\typings\jquery\jquery.d.ts" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AngularJS-Ajax.aspx.cs">
+      <DependentUpon>AngularJS-Ajax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-Ajax.aspx.designer.cs">
+      <DependentUpon>AngularJS-Ajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-Controller.aspx.cs">
+      <DependentUpon>AngularJS-Controller.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-Controller.aspx.designer.cs">
+      <DependentUpon>AngularJS-Controller.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-Events.aspx.cs">
+      <DependentUpon>AngularJS-Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-Events.aspx.designer.cs">
+      <DependentUpon>AngularJS-Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-Expressions.aspx.cs">
+      <DependentUpon>AngularJS-Expressions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-Expressions.aspx.designer.cs">
+      <DependentUpon>AngularJS-Expressions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-Filters.aspx.cs">
+      <DependentUpon>AngularJS-Filters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-Filters.aspx.designer.cs">
+      <DependentUpon>AngularJS-Filters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-HTML-DOM.aspx.cs">
+      <DependentUpon>AngularJS-HTML-DOM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-HTML-DOM.aspx.designer.cs">
+      <DependentUpon>AngularJS-HTML-DOM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-LoginApp-UsingWeb.aspx.cs">
+      <DependentUpon>AngularJS-LoginApp-UsingWeb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-LoginApp-UsingWeb.aspx.designer.cs">
+      <DependentUpon>AngularJS-LoginApp-UsingWeb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-LoginApplication.aspx.cs">
+      <DependentUpon>AngularJS-LoginApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-LoginApplication.aspx.designer.cs">
+      <DependentUpon>AngularJS-LoginApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-Module.aspx.cs">
+      <DependentUpon>AngularJS-Module.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-Module.aspx.designer.cs">
+      <DependentUpon>AngularJS-Module.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-Services.aspx.cs">
+      <DependentUpon>AngularJS-Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-Services.aspx.designer.cs">
+      <DependentUpon>AngularJS-Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-Validation.aspx.cs">
+      <DependentUpon>AngularJS-Validation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-Validation.aspx.designer.cs">
+      <DependentUpon>AngularJS-Validation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-Views-AddStudent.aspx.cs">
+      <DependentUpon>AngularJS-Views-AddStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-Views-AddStudent.aspx.designer.cs">
+      <DependentUpon>AngularJS-Views-AddStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-Views.aspx.cs">
+      <DependentUpon>AngularJS-Views.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-Views.aspx.designer.cs">
+      <DependentUpon>AngularJS-Views.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS1.aspx.cs">
+      <DependentUpon>AngularJS1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS1.aspx.designer.cs">
+      <DependentUpon>AngularJS1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS2.aspx.cs">
+      <DependentUpon>AngularJS2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS2.aspx.designer.cs">
+      <DependentUpon>AngularJS2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AngularJS-Directives.aspx.cs">
+      <DependentUpon>AngularJS-Directives.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AngularJS-Directives.aspx.designer.cs">
+      <DependentUpon>AngularJS-Directives.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Angulat-JS-LoginUsingWebService.aspx.cs">
+      <DependentUpon>Angulat-JS-LoginUsingWebService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Angulat-JS-LoginUsingWebService.aspx.designer.cs">
+      <DependentUpon>Angulat-JS-LoginUsingWebService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginModule.cs" />
+    <Compile Include="LoginSuccess.aspx.cs">
+      <DependentUpon>LoginSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginSuccess.aspx.designer.cs">
+      <DependentUpon>LoginSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginWebService.asmx.cs">
+      <DependentUpon>LoginWebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50256</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50256/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

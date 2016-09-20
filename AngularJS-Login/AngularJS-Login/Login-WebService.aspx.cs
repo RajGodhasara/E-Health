@@ -34,6 +34,16 @@ namespace AngularJS_Login.Scripts
             con.Open();
             int i = cmd.ExecuteNonQuery();
             con.Close();
+            if (i == 0)
+            {
+                Response.Write("<script>alert('Deletion failed.')</script>");
+            }
+            else
+            {
+                Response.Write("<script>alert('Deleted successful.')</script>");
+                Response.Redirect("~/Login-WebService.aspx");
+
+            }
 
         }
 
